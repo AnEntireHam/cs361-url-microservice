@@ -35,3 +35,23 @@ if __name__ == "__main__":
     message = "https://en.wikipedia.org/wiki/Blood_sausage#Asia"
     send_message(message)
 
+    message = "http://localhost:"
+    send_message(message)
+
+    message = "http://localhost:/api"
+    send_message(message)
+
+    message = "http://localhost:5172"
+    send_message(message)
+
+    message = "https://localhost:5172/api"
+    send_message(message)
+
+    message = "https://localhost:0"
+    send_message(message)
+
+    message = "https://localhost:65535"
+    send_message(message)
+
+    message = "https://localhost:65536"
+    send_message(message)
